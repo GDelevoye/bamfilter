@@ -1,0 +1,6 @@
+[requires]
+boost/1.75.0
+lyra/1.5.1
+spdlog/1.9.2
+[generators]
+cmake
