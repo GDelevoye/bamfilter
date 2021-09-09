@@ -2,7 +2,7 @@
 
 **Description**
 
-Lightweight and fast CLI tool to filter a .bam file alonside with samtools view 
+Lightweight and fast C++ CLI tool to filter a .bam file alonside with samtools view 
 
 
 # Dev status
@@ -93,8 +93,6 @@ You have to compile it from sources.
 ```console
 git clone https://github.com/GDelevoye/bam_filter/ &&
 cd bam_filter &&
-git pull &&
-git checkout c11 &&
 git pull &&
 mkdir -p build && cd build &&
 conan install .. --build=missing &&
