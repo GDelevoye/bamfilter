@@ -22,6 +22,16 @@ As it is pure C++/CMake project, it should be easily compiled on many other plat
 
 # Usage
 
+
+## TL;DR
+
+
+```console
+samtools view -h ./input.bam | bamfilter | samtools view -bS > output.bam
+```
+
+# Full description
+
 ```console
 ********************************************
 A lightweight C++ tool to filter .bam files.
